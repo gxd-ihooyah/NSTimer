@@ -16,6 +16,9 @@
 		0465BA592601A73C006E4C30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465BA582601A73C006E4C30 /* main.m */; };
 		0465BA632601A73C006E4C30 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465BA622601A73C006E4C30 /* ___Tests.m */; };
 		0465BA6E2601A73C006E4C30 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465BA6D2601A73C006E4C30 /* ___UITests.m */; };
+		0465BA7D2601D17D006E4C30 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465BA7C2601D17D006E4C30 /* RootViewController.m */; };
+		0465BA802601D3E4006E4C30 /* CADisplayLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465BA7F2601D3E4006E4C30 /* CADisplayLinkViewController.m */; };
+		0465BA832601E297006E4C30 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465BA822601E297006E4C30 /* GCDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		0465BA692601A73C006E4C30 /* 计时器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计时器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0465BA6D2601A73C006E4C30 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		0465BA6F2601A73C006E4C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0465BA7B2601D17D006E4C30 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0465BA7C2601D17D006E4C30 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0465BA7E2601D3E4006E4C30 /* CADisplayLinkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADisplayLinkViewController.h; sourceTree = "<group>"; };
+		0465BA7F2601D3E4006E4C30 /* CADisplayLinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkViewController.m; sourceTree = "<group>"; };
+		0465BA812601E297006E4C30 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		0465BA822601E297006E4C30 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +117,12 @@
 				0465BA472601A738006E4C30 /* AppDelegate.m */,
 				0465BA492601A738006E4C30 /* SceneDelegate.h */,
 				0465BA4A2601A738006E4C30 /* SceneDelegate.m */,
+				0465BA7B2601D17D006E4C30 /* RootViewController.h */,
+				0465BA7C2601D17D006E4C30 /* RootViewController.m */,
+				0465BA7E2601D3E4006E4C30 /* CADisplayLinkViewController.h */,
+				0465BA7F2601D3E4006E4C30 /* CADisplayLinkViewController.m */,
+				0465BA812601E297006E4C30 /* GCDViewController.h */,
+				0465BA822601E297006E4C30 /* GCDViewController.m */,
 				0465BA4C2601A738006E4C30 /* ViewController.h */,
 				0465BA4D2601A738006E4C30 /* ViewController.m */,
 				0465BA4F2601A738006E4C30 /* Main.storyboard */,
@@ -268,9 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0465BA4E2601A738006E4C30 /* ViewController.m in Sources */,
+				0465BA802601D3E4006E4C30 /* CADisplayLinkViewController.m in Sources */,
 				0465BA482601A738006E4C30 /* AppDelegate.m in Sources */,
 				0465BA592601A73C006E4C30 /* main.m in Sources */,
+				0465BA832601E297006E4C30 /* GCDViewController.m in Sources */,
 				0465BA4B2601A738006E4C30 /* SceneDelegate.m in Sources */,
+				0465BA7D2601D17D006E4C30 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
