@@ -19,6 +19,9 @@
 		0465BA7D2601D17D006E4C30 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465BA7C2601D17D006E4C30 /* RootViewController.m */; };
 		0465BA802601D3E4006E4C30 /* CADisplayLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465BA7F2601D3E4006E4C30 /* CADisplayLinkViewController.m */; };
 		0465BA832601E297006E4C30 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465BA822601E297006E4C30 /* GCDViewController.m */; };
+		6CA562D7AB37B4617122A6FF /* Pods____Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A545F81D3F9E3A6A4486A486 /* Pods____Tests.framework */; };
+		99268D2775700FA7A29E0A75 /* Pods________UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB2EBDC6C8C76D98F84EFBC /* Pods________UITests.framework */; };
+		A169398273CAE922750E2B4B /* Pods____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEC3A8FDF837157C3847C86 /* Pods____.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,15 @@
 		0465BA7F2601D3E4006E4C30 /* CADisplayLinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkViewController.m; sourceTree = "<group>"; };
 		0465BA812601E297006E4C30 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		0465BA822601E297006E4C30 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		1B45FC53077E98ADEEDD7508 /* Pods-计时器Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-计时器Tests.debug.xcconfig"; path = "Target Support Files/Pods-计时器Tests/Pods-计时器Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B2BE6E552D807ACAD142D32 /* Pods-计时器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-计时器.release.xcconfig"; path = "Target Support Files/Pods-计时器/Pods-计时器.release.xcconfig"; sourceTree = "<group>"; };
+		6A2F0EA886F7D615C237D4EB /* Pods-计时器Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-计时器Tests.release.xcconfig"; path = "Target Support Files/Pods-计时器Tests/Pods-计时器Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6DB2EBDC6C8C76D98F84EFBC /* Pods________UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods________UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C09B5A665092B9D46660C44 /* Pods-计时器-计时器UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-计时器-计时器UITests.debug.xcconfig"; path = "Target Support Files/Pods-计时器-计时器UITests/Pods-计时器-计时器UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A545F81D3F9E3A6A4486A486 /* Pods____Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEC3A8FDF837157C3847C86 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2541DACB41A4AE901B23FE /* Pods-计时器-计时器UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-计时器-计时器UITests.release.xcconfig"; path = "Target Support Files/Pods-计时器-计时器UITests/Pods-计时器-计时器UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6123483D114BD492869E336 /* Pods-计时器.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-计时器.debug.xcconfig"; path = "Target Support Files/Pods-计时器/Pods-计时器.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A169398273CAE922750E2B4B /* Pods____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA562D7AB37B4617122A6FF /* Pods____Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99268D2775700FA7A29E0A75 /* Pods________UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +112,8 @@
 				0465BA612601A73C006E4C30 /* 计时器Tests */,
 				0465BA6C2601A73C006E4C30 /* 计时器UITests */,
 				0465BA442601A738006E4C30 /* Products */,
+				607BE65AA8BE5AA9AC4AD641 /* Pods */,
+				56B717D2903766DE37C91191 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +169,30 @@
 			path = "计时器UITests";
 			sourceTree = "<group>";
 		};
+		56B717D2903766DE37C91191 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC3A8FDF837157C3847C86 /* Pods____.framework */,
+				6DB2EBDC6C8C76D98F84EFBC /* Pods________UITests.framework */,
+				A545F81D3F9E3A6A4486A486 /* Pods____Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607BE65AA8BE5AA9AC4AD641 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6123483D114BD492869E336 /* Pods-计时器.debug.xcconfig */,
+				2B2BE6E552D807ACAD142D32 /* Pods-计时器.release.xcconfig */,
+				7C09B5A665092B9D46660C44 /* Pods-计时器-计时器UITests.debug.xcconfig */,
+				EF2541DACB41A4AE901B23FE /* Pods-计时器-计时器UITests.release.xcconfig */,
+				1B45FC53077E98ADEEDD7508 /* Pods-计时器Tests.debug.xcconfig */,
+				6A2F0EA886F7D615C237D4EB /* Pods-计时器Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0465BA722601A73C006E4C30 /* Build configuration list for PBXNativeTarget "计时器" */;
 			buildPhases = (
+				39F1D32015C89C8CBCC2CB64 /* [CP] Check Pods Manifest.lock */,
 				0465BA3F2601A738006E4C30 /* Sources */,
 				0465BA402601A738006E4C30 /* Frameworks */,
 				0465BA412601A738006E4C30 /* Resources */,
@@ -176,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0465BA752601A73C006E4C30 /* Build configuration list for PBXNativeTarget "计时器Tests" */;
 			buildPhases = (
+				FC070B774A9151D7D6F26178 /* [CP] Check Pods Manifest.lock */,
 				0465BA5A2601A73C006E4C30 /* Sources */,
 				0465BA5B2601A73C006E4C30 /* Frameworks */,
 				0465BA5C2601A73C006E4C30 /* Resources */,
+				C67AD5DF56ED836A18CCB469 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0465BA782601A73C006E4C30 /* Build configuration list for PBXNativeTarget "计时器UITests" */;
 			buildPhases = (
+				5CE961B07F3FEFFCABDAC64F /* [CP] Check Pods Manifest.lock */,
 				0465BA652601A73C006E4C30 /* Sources */,
 				0465BA662601A73C006E4C30 /* Frameworks */,
 				0465BA672601A73C006E4C30 /* Resources */,
@@ -276,6 +321,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39F1D32015C89C8CBCC2CB64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-计时器-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE961B07F3FEFFCABDAC64F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-计时器-计时器UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67AD5DF56ED836A18CCB469 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-计时器Tests/Pods-计时器Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-计时器Tests/Pods-计时器Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-计时器Tests/Pods-计时器Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC070B774A9151D7D6F26178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-计时器Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0465BA3F2601A738006E4C30 /* Sources */ = {
@@ -455,6 +586,7 @@
 		};
 		0465BA732601A73C006E4C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6123483D114BD492869E336 /* Pods-计时器.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +603,7 @@
 		};
 		0465BA742601A73C006E4C30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2BE6E552D807ACAD142D32 /* Pods-计时器.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +620,7 @@
 		};
 		0465BA762601A73C006E4C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B45FC53077E98ADEEDD7508 /* Pods-计时器Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -506,6 +640,7 @@
 		};
 		0465BA772601A73C006E4C30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2F0EA886F7D615C237D4EB /* Pods-计时器Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +660,7 @@
 		};
 		0465BA792601A73C006E4C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C09B5A665092B9D46660C44 /* Pods-计时器-计时器UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "计时器UITests/Info.plist";
@@ -542,6 +678,7 @@
 		};
 		0465BA7A2601A73C006E4C30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2541DACB41A4AE901B23FE /* Pods-计时器-计时器UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "计时器UITests/Info.plist";

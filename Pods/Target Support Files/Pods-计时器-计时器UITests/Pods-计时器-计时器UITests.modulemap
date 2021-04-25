@@ -1,0 +1,6 @@
+framework module Pods________UITests {
+  umbrella header "Pods-计时器-计时器UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
