@@ -25,6 +25,8 @@
     [self initRightButton];
     
     [self initButton];
+    
+    NSLog(@"单纯测试tag");
 }
 
 -(void)initButton{
